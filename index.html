@@ -1,16 +1,278 @@
-<!-- plik index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
-    <meta charset="utf-8">
-    <title> Tytuł strony </title>
-    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="layout">
+    <meta name="keywords" content="layout">
+    <meta name="author" content="Sonia Rajs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>
-      Witaj na mojej stronie
-    </h1>
-    <script type="text/javascript" src="js/scripts.js">
-    </script>
+    <header>
+   <nav class="row container"> <!--jak dodałam klasę row to zniknął markines nad nav'em. ???-->
+    <img src="https://2h4nsh3eju-flywheel.netdna-ssl.com/wp-content/uploads/2018/01/AusOpen2018-OfficialTourOperatorlogo-300x284.png" alt="logo">
+    <ul>
+     <li><a href="#"> home </a></li>
+     <li><a href="#"> pages </a></li>
+     <li><a href="#"> features </a></li>
+     <li><a href="#"> service </a></li>
+     <li><a href="#"> contact </a></li>
+    </ul>
+   </nav>
+  </header>
+   <main>
+   
+<!-- photo background -->
+
+    <section class="bk-photo">
+      <img src="https://images.pexels.com/photos/4516/sky-people-clouds-crowd.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="tennis">
+      <div class="slogan">
+        <h1> Wspaniałe widowisko <br><b>sportowe!</b></h1>
+      </div>
+    </section>
+    
+<!-- HEY HI HELLO SECTION -->
+    
+    <section class="value">
+      <div class="row">
+        <div class="col-m-4 col-s-12">
+          <i class="fa fa-transgender" aria-hidden="true"></i>
+          <h2>Hey!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-m-4 col-s-12">
+          <i class="fa fa-mars-stroke" aria-hidden="true"></i>
+          <h2>Hi!</h2>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class="col-m-4 col-s-12">
+          <i class="fa fa-mercury" aria-hidden="true"></i>
+          <h2>Hello!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </section>
+    
+<!-- PLAYERS -->
+
+    <section class="container2 col-s-12 players">
+      <h1>najlepsi zawodnicy</h1>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur pariatur.</p>
+    </section>
+    
+<!-- GALLERY -->
+
+    <section class="gallery">
+      <div class="row">
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/AGEgF5B.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/Ue2tUMV.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/7Ff7rDB.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/AGEgF5B.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/KUt6tGb.jpg" alt="galeria">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/Ue2tUMV.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/KUt6tGb.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/7Ff7rDB.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/Ue2tUMV.jpg" alt="galeria">
+        </div>
+        <div class="col-m-3a col-s-12 col-sm-6">
+          <div class="layer">
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <img src="http://i.imgur.com/KUt6tGb.jpg" alt="galeria">
+        </div>
+      </div>
+    </section>
+    
+<!-- PORTRAITS -->    
+    
+    <section class="container2">
+      <div class="row portraits">
+        <div class="center">
+          <div class="col-m-3 col-sm-6">
+            <div class="circle">
+              <img src="https://images.pexels.com/photos/206559/pexels-photo-206559.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="galeria">
+            </div>
+            <h2> Sonia Rajs </h2>
+          </div>
+          <div class="col-m-3 col-sm-6">
+            <div class="circle">
+              <img src="https://images.pexels.com/photos/108048/pexels-photo-108048.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="galeria">
+            </div>
+            <h2> Sonia Rajs </h2>
+          </div>
+          <div class="col-m-3 col-sm-6">
+            <div class="circle">
+              <img src="https://images.pexels.com/photos/206559/pexels-photo-206559.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="galeria">
+            </div>
+            <h2> Sonia Rajs </h2>
+          </div>
+          <div class="col-m-3 col-sm-6">
+            <div class="circle">
+              <img src="https://images.pexels.com/photos/108048/pexels-photo-108048.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="galeria">
+            </div>
+            <h2> Sonia Rajs </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- FULL BACKGROUND 2 -->
+    
+    <section>
+      <div class="full-bk">
+        <div class="container2">
+          <div class="row">
+            <div class="col-m-4 col-s-12 phone">  
+              <img src="http://pngimg.com/upload/smartphone_PNG8519.png" alt="phone">
+            </div>
+            <div class="col-m-8 col-s-12 tel">
+              <h1> sprawdzaj wyniki meczów na zywo! </h1>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur pariatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- NUMBERS -->    
+    
+    <section>
+      <div class="row statistic">
+        <div class="col-m-3 col-s-6">
+          <h1> 4366 </h1>
+          <p> fans </p>
+        </div>
+        <div class="col-m-3 col-s-6">
+          <h1> 344 </h1>
+          <p>players</p>
+        </div>
+        <div class="col-m-3 col-s-6">
+          <h1> 2577 </h1>
+          <p> people </p>
+        </div>
+        <div class="col-m-3 col-s-6">
+          <h1> 33 </h1>
+          <p> winners </p>
+        </div>
+      </div>
+    </section>
+   </main>
+   
+<!-- FOOTER --> 
+    
+    <footer>
+      <div class="row footer">
+        <div class="container2 about">
+          <div class="col-m-4">
+            <h2> About us </h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-m-4">
+            <h2> Get in touch </h2>
+            <div class="row">
+              <div class="col-m-4">
+                <p><b>adress</b></p>
+              </div>
+              <div class="col-m-8">
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip</p> 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-m-4">
+                <p><b>email</b></p>
+              </div>
+              <div class="col-m-8">
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip</p> 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-m-4">
+                <p><b>phone</b></p>
+              </div>
+              <div class="col-m-8">
+                <p> quis nostrud exercitation ullamco laboris nisi ut aliquip</p> 
+              </div>
+            </div>  
+          </div>
+          <div class="col-m-4">
+            <h2> Social media </h2>
+            <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              <button class="icon-btn facebook">
+                <i class="fa fa-facebook"></i>
+              </button>
+              <button class="icon-btn google">
+                <i class="fa fa-google-plus"></i>
+              </button>
+              <button class="icon-btn instagram">
+                <i class="fa fa-instagram"></i>
+              </button>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p> Copyright by Sonia Rajs </p>
+      </div>
+    </footer>   
   </body>
 </html>
